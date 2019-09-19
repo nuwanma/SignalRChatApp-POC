@@ -12,6 +12,7 @@ namespace SignalRPrivateChat.ChatHelper
         public void Configuration(IAppBuilder app)
         {
             app.MapSignalR();
+            //app.Build
         }
     }
 }
